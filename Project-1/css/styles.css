@@ -1,0 +1,71 @@
+body {
+  background-color: #ceddef;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 125px;
+  margin-bottom: 45px;
+  font-family: 'Montaga', serif;
+  font-size: 3rem;
+  color: #070d59;
+}
+
+.middle-container {
+  border: solid 1px #1f3c88;
+  border-radius: 20px;
+  margin: auto;
+  width: 375px;
+}
+
+.login-details {
+  font-size: 1.475rem;
+  color: #070d59;
+  margin-top: 25px;
+}
+
+.input-username {
+  font-size: 11px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  text-align: center;
+  width: 280px;
+}
+
+.form-button {
+  margin-bottom: 20px;
+}
+
+.btn-signup {
+  margin-right: 50px;
+}
+
+.btn-signup, .btn-login {
+  background: #070d59;
+  background-image: -webkit-linear-gradient(top, #070d59, #1f3c88);
+  background-image: -moz-linear-gradient(top, #070d59, #1f3c88);
+  background-image: -ms-linear-gradient(top, #070d59, #1f3c88);
+  background-image: -o-linear-gradient(top, #070d59, #1f3c88);
+  background-image: linear-gradient(to bottom, #070d59, #1f3c88);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ceddef;
+  font-size: 16px;
+  padding: 5px 18px 5px 18px;
+  text-decoration: none;
+}
+
+.btn-signup:hover .btn-login {
+  background: #1f3c88;
+  background-image: -webkit-linear-gradient(top, #1f3c88, #070d59);
+  background-image: -moz-linear-gradient(top, #1f3c88, #070d59);
+  background-image: -ms-linear-gradient(top, #1f3c88, #070d59);
+  background-image: -o-linear-gradient(top, #1f3c88, #070d59);
+  background-image: linear-gradient(to bottom, #1f3c88, #070d59);
+  text-decoration: none;
+}
